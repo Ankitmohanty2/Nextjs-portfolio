@@ -29,13 +29,13 @@ function YourNewComponentName({ }: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
-              src=''
+              src='/'
               alt='project'
             />
 
             <div className='space-y-10 px-0 md:px-10 max-w6xl'>
               <h4 className='text-4xl font-semibold text-center'>
-                <span className='underline decoration-[#00C1CB]/50'>Case Study {i + 1} of {projects.length}:</span>{" "}
+                <span className='underline decoration-[#00C1CB]/50 text-[#00C1CB]'>Case Study {i + 1} of {projects.length}:</span>{" "}
                 UPS Clone
               </h4>
 
@@ -47,16 +47,10 @@ function YourNewComponentName({ }: Props) {
         ))}
       </div>
 
-      <div className='w-full absolute top-[30%] bg-[#00C1CB]/10 left-0 h-[500px] -skew-y-12'>
+      <div className='w-full absolute top-[30%] bg-blue-500/10 left-0 h-[500px] -skew-y-12'>
       </div>
     </motion.div>
   );
 }
 
 export default YourNewComponentName;
-
-
-
-
-
-
