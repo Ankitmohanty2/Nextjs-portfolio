@@ -32,7 +32,7 @@ export default function Header({}: Props) {
                 bgColor='transparent'
             />
             <SocialIcon 
-                url="https://www.twitter.com/bee_bombshell/"
+                url="https://medium.com/@mohantyankit619"
                 fgColor='gray' 
                 bgColor='transparent' 
             />
