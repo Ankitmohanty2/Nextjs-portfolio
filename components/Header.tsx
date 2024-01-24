@@ -42,7 +42,7 @@ export default function Header({}: Props) {
                 bgColor='transparent' 
             />
             <SocialIcon 
-                url="https://in.pinterest.com/Bee_Bombshell/" 
+                url="https://open.spotify.com/user/ic9rbljwig5wnabuxa47te6a0" 
                 fgColor='gray' 
                 bgColor='transparent' 
             />

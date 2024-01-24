@@ -39,8 +39,22 @@ export default function About({}: Props) {
         </h4>
         <p className='text-base'>
         
-        Hey there! 👋 I'm Ankit Mohanty, an aspiring Frontend Developer passionate about creating captivating digital experiences. As a fresh graduate, I'm excited to embark on my journey in the tech world. Eager to contribute my skills, I'm actively exploring opportunities to learn and grow. Feel free to check out my evolving coding adventures on my blog and follow my journey as I dive into the world of user-centric tech. Let's connect and explore the possibilities together! 🚀💻  I'm all about creating seamless web experiences. 💻✨
+        Hey there! <span 
+      className="inline-block cursor-pointer animate-float"
+      draggable="true"
+      onDragStart={(e) => e.dataTransfer.setDragImage(new Image(), 0, 0)}
+    >
+      👋
+    </span> I'm Ankit Mohanty, an aspiring Frontend Developer passionate about creating captivating digital experiences. As a fresh graduate, I'm excited to embark on my journey in the tech world. Eager to contribute my skills, I'm actively exploring opportunities to learn and grow. Feel free to check out my evolving coding adventures on my Github and follow my journey as I dive into the world of user-centric tech. I'm all about creating seamless web experiences. Let's connect and explore the possibilities together! 🚀💻 
         </p>
+        <a
+          href='https://drive.google.com/file/d/1cmw6IOPzBLHlgCqGWmYOE58EZDv0Hd7P/view?usp=sharing' 
+          target='Resume'
+          rel='noopener noreferrer'
+          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full inline-block transition duration-300 ease-in-out'
+        >
+          Download Resume
+        </a>
       </div>
     </motion.div>
   )

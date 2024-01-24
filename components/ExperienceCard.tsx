@@ -64,7 +64,9 @@ const ExperienceCard = ({ experience }: Props) => {
         </div>
         <p className='uppercase py-5 text-gray-300'>{date}</p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg h-[200px] overflow-y-scroll'>
+        <ul className='list-disc space-y-4 ml-5 text-lg h-[200px] overflow-y-scroll
+        scrollbar
+         scrollbar-track-gray-400/20 scrollbar-thumb-[#a393eb]/80'>
           {description.map((point, index) => (
             <li key={index}>{point}</li>
           ))}
